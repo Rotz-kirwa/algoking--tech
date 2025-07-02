@@ -1,0 +1,152 @@
+.portfolio-subtitle {
+  text-align: center;
+  color: var(--text-gray);
+  font-size: 1.2rem;
+  margin-bottom: 60px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+}
+
+.portfolio-card {
+  background: var(--white);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-image {
+  position: relative;
+  height: 200px;
+  background: linear-gradient(135deg, var(--navy-blue), var(--electric-blue));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.portfolio-icon {
+  font-size: 4rem;
+  color: var(--white);
+}
+
+.portfolio-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.portfolio-card:hover .portfolio-overlay {
+  opacity: 1;
+}
+
+.view-project {
+  background: var(--electric-blue);
+  color: var(--white);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.view-project:hover {
+  background: var(--white);
+  color: var(--navy-blue);
+}
+
+.portfolio-content {
+  padding: 30px;
+}
+
+.portfolio-category {
+  color: var(--electric-blue);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.portfolio-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--navy-blue);
+  margin-bottom: 12px;
+}
+
+.portfolio-description {
+  color: var(--text-gray);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.portfolio-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tech-tag {
+  background: var(--light-gray);
+  color: var(--navy-blue);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.live-demo-btn {
+  display: inline-block;
+  background: var(--electric-blue);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.live-demo-btn:hover {
+  background: var(--navy-blue);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .portfolio-content {
+    padding: 20px;
+  }
+
+  .portfolio-title {
+    font-size: 1.3rem;
+  }
+}

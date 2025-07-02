@@ -1,0 +1,31 @@
+{
+  "contacts": [
+    {
+      "id": 1751475088404,
+      "name": "gadiel kirwa",
+      "email": "eliud.rotich@students.moringaschool.com",
+      "company": "Faircrah",
+      "service": "consultation",
+      "message": "i need a website for my business ",
+      "date": "2025-07-02T16:51:28.404Z"
+    },
+    {
+      "id": 1751475098521,
+      "name": "gadiel kirwa",
+      "email": "eliud.rotich@students.moringaschool.com",
+      "company": "Faircrah",
+      "service": "consultation",
+      "message": "i need a website for my business ",
+      "date": "2025-07-02T16:51:38.521Z"
+    },
+    {
+      "id": 1751481906834,
+      "name": "gadiel kirwa",
+      "email": "eliud.rotich@students.moringaschool.com",
+      "company": "Faircrah",
+      "service": "consultation",
+      "message": "i need a website for my business ",
+      "date": "2025-07-02T18:45:06.834Z"
+    }
+  ]
+}
