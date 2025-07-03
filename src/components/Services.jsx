@@ -37,7 +37,7 @@ const Services = () => {
                   <li key={idx}>✓ {feature}</li>
                 ))}
               </ul>
-              <button className="service-btn">Learn More</button>
+
             </div>
           ))}
         </div>

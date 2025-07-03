@@ -6,12 +6,11 @@ const Header = ({ activeSection, setActiveSection }) => {
 
   const navItems = [
     { id: 'home', label: 'Home' },
-    { id: 'about', label: 'About Us' },
     { id: 'services', label: 'Services' },
     { id: 'portfolio', label: 'Portfolio' },
     { id: 'pricing', label: 'Pricing' },
-    { id: 'testimonials', label: 'Testimonials' },
     { id: 'blog', label: 'Blog' },
+    { id: 'testimonials', label: 'Testimonials' },
     { id: 'contact', label: 'Contact' }
   ];
 

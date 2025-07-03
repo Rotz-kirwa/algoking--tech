@@ -17,12 +17,11 @@ const App = () => {
       <Header activeSection={activeSection} setActiveSection={setActiveSection} />
       <main>
         <Home />
-        <About />
         <Services />
         <Portfolio />
         <Pricing />
-        <Testimonials />
         <Blog />
+        <Testimonials />
         <Contact />
       </main>
     </>
