@@ -42,8 +42,9 @@ const Header = ({ activeSection, setActiveSection }) => {
         </nav>
 
         <button 
-          className="menu-toggle"
+          className={`menu-toggle ${isMenuOpen ? 'active' : ''}`}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label="Toggle navigation menu"
         >
           <span></span>
           <span></span>

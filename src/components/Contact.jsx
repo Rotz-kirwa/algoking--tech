@@ -31,7 +31,7 @@ const Contact = () => {
       console.log('Sending to:', 'http://localhost:5000/contact');
       console.log('Data:', formData);
       
-      const response = await fetch('http://localhost:5000/contact', {
+      const response = await fetch('https://your-app-name.onrender.com/contact', { // Replace with your actual Render URL
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

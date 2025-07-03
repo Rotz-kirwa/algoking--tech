@@ -71,6 +71,33 @@
       "service": "consultation",
       "message": "ding",
       "date": "2025-07-03T13:16:36.305Z"
+    },
+    {
+      "id": 1751549231370,
+      "name": "gadiel kirwa",
+      "email": "eliud.rotich@student.moringaschool.com",
+      "company": "Faircrah",
+      "service": "maintenance",
+      "message": "what",
+      "date": "2025-07-03T13:27:11.370Z"
+    },
+    {
+      "id": 1751549627396,
+      "name": "gadiel kirwa",
+      "email": "eliud.rotich@student.moringaschool.com",
+      "company": "Faircrah",
+      "service": "hosting",
+      "message": "rrrr",
+      "date": "2025-07-03T13:33:47.396Z"
+    },
+    {
+      "id": 1751549745781,
+      "name": "gadiel kirwa",
+      "email": "eliud.rotich@student.moringaschool.com",
+      "company": "Faircrah",
+      "service": "maintenance",
+      "message": "qwen",
+      "date": "2025-07-03T13:35:45.781Z"
     }
   ]
 }
