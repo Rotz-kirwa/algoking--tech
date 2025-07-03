@@ -7,7 +7,7 @@ const Portfolio = () => {
       category: 'Web Development',
       description: 'Modern e-commerce solution with payment integration and inventory management.',
       image: '🛒',
-      tech: ['React.js'],
+      tech: ['React', 'Flask', 'MySQL'],
       liveDemo: 'https://suhas86.github.io/react-ecomm-sample/'
     },
     {
@@ -15,7 +15,7 @@ const Portfolio = () => {
       category: 'Web Design',
       description: 'Professional corporate website with CMS and multi-language support.',
       image: '🏢',
-      tech: ['WordPress', 'PHP', 'MySQL'],
+      tech: ['React', 'Flask', 'MySQL'],
       liveDemo: 'https://www.heroui.com/'
     },
     {
@@ -23,7 +23,7 @@ const Portfolio = () => {
       category: 'Web Development',
       description: 'Multi-location restaurant website with online ordering system.',
       image: '🍕',
-      tech: ['Vue.js', 'Laravel', 'PostgreSQL'],
+      tech: ['React', 'Flask', 'MySQL'],
       liveDemo: 'https://gericht-restaurant.netlify.app/#contact'
     },
     {
@@ -31,7 +31,7 @@ const Portfolio = () => {
       category: 'Web Application',
       description: 'Patient management system with appointment scheduling and records.',
       image: '🏥',
-      tech: ['Angular', 'Express.js', 'MongoDB'],
+      tech: ['React', 'Flask', 'MySQL'],
       liveDemo: 'https://aarhospital.com/'
     },
     {
@@ -39,7 +39,7 @@ const Portfolio = () => {
       category: 'Web Development',
       description: 'Property listing platform with advanced search and virtual tours.',
       image: '🏠',
-      tech: ['React', 'Django', 'PostgreSQL'],
+      tech: ['React', 'Flask', 'MySQL'],
       liveDemo: 'https://www.tollbrotherscityliving.com/'
     },
     {
@@ -47,7 +47,7 @@ const Portfolio = () => {
       category: 'Web Application',
       description: 'Online learning management system with video streaming and assessments.',
       image: '📚',
-      tech: ['Next.js', 'Node.js', 'Redis'],
+      tech: ['React', 'Flask', 'MySQL'],
       liveDemo: 'https://rising-lion-school-git-master-eliuds-projects-ebf8c589.vercel.app/#staff'
     }
   ];
