@@ -3,8 +3,15 @@ import './Header.css';
 
 const Header = ({ activeSection, setActiveSection }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
-  const navItems = [
+  React.useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  const allNavItems = [
     { id: 'home', label: 'Home' },
     { id: 'services', label: 'Service' },
     { id: 'portfolio', label: 'Work' },
@@ -13,6 +20,15 @@ const Header = ({ activeSection, setActiveSection }) => {
     { id: 'testimonials', label: 'Reviews' },
     { id: 'contact', label: 'Contact' }
   ];
+
+  const mobileNavItems = [
+    { id: 'home', label: 'Home' },
+    { id: 'services', label: 'Service' },
+    { id: 'pricing', label: 'Price' },
+    { id: 'contact', label: 'Contact' }
+  ];
+
+  const navItems = isMobile ? mobileNavItems : allNavItems;
 
   return (
     <header className="header">

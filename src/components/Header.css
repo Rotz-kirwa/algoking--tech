@@ -155,18 +155,7 @@
     box-shadow: 0 3px 6px rgba(26, 35, 126, 0.3);
   }
 
-  /* Hide specific nav items on mobile */
-  .nav-link[href="#portfolio"],
-  .nav-link[href="#blog"],
-  .nav-link[href="#testimonials"] {
-    display: none;
-  }
 
-  /* Adjust grid for remaining 4 items */
-  .nav {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
 
   .nav-link.active::after {
     display: none;
