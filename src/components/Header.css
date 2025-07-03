@@ -110,81 +110,49 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 4px;
+    gap: 6px;
     width: 100%;
-    max-width: 300px;
+    max-width: 320px;
     margin: 0 auto;
+    padding: 8px;
   }
 
   .nav-link {
-    font-size: 0.65rem;
-    padding: 8px 4px;
-    min-height: 36px;
+    font-size: 0.75rem;
+    padding: 10px 8px;
+    min-height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 600;
+    font-weight: 500;
     white-space: nowrap;
     text-align: center;
     border-radius: 8px;
     transition: all 0.3s ease;
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    text-transform: capitalize;
+    letter-spacing: 0.2px;
+    background: var(--white);
+    color: var(--navy-blue);
+    border: 1px solid rgba(26, 35, 126, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .nav-link:nth-child(1) {
-    background: #e3f2fd;
-    color: #1976d2;
-    border: 1px solid #1976d2;
-  }
 
-  .nav-link:nth-child(2) {
-    background: #f3e5f5;
-    color: #7b1fa2;
-    border: 1px solid #7b1fa2;
-  }
-
-  .nav-link:nth-child(3) {
-    background: #e8f5e8;
-    color: #388e3c;
-    border: 1px solid #388e3c;
-  }
-
-  .nav-link:nth-child(4) {
-    background: #fff3e0;
-    color: #f57c00;
-    border: 1px solid #f57c00;
-  }
-
-  .nav-link:nth-child(5) {
-    background: #fce4ec;
-    color: #c2185b;
-    border: 1px solid #c2185b;
-  }
-
-  .nav-link:nth-child(6) {
-    background: #e0f2f1;
-    color: #00695c;
-    border: 1px solid #00695c;
-  }
-
-  .nav-link:nth-child(7) {
-    background: #f1f8e9;
-    color: #558b2f;
-    border: 1px solid #558b2f;
-  }
 
   .nav-link:hover {
-    transform: scale(1.05);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    background: var(--electric-blue);
+    color: var(--white);
+    border-color: var(--electric-blue);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(33, 150, 243, 0.3);
   }
 
   .nav-link.active {
-    transform: scale(1.08);
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3);
-    font-weight: 700;
+    background: var(--navy-blue);
+    color: var(--white);
+    border-color: var(--navy-blue);
+    font-weight: 600;
+    box-shadow: 0 3px 6px rgba(26, 35, 126, 0.3);
   }
 
   .nav-link.active::after {
