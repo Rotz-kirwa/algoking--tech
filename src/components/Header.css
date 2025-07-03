@@ -121,23 +121,25 @@
   }
 
   .nav-link {
-    font-size: 0.5rem;
-    padding: 3px 2px;
-    min-height: 24px;
+    font-size: 0.4rem;
+    padding: 2px 1px;
+    min-height: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 600;
+    font-weight: 700;
     white-space: nowrap;
     flex: 1;
     min-width: 0;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 4px;
     transition: all 0.3s ease;
     text-transform: uppercase;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.2px;
     overflow: hidden;
     text-overflow: ellipsis;
+    transform: rotate(-8deg) skew(-5deg);
+    margin: 2px;
   }
 
   .nav-link:nth-child(1) {
@@ -183,14 +185,14 @@
   }
 
   .nav-link:hover {
-    transform: scale(1.05);
+    transform: rotate(-8deg) skew(-5deg) scale(1.05);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   }
 
   .nav-link.active {
-    transform: scale(1.1);
+    transform: rotate(-8deg) skew(-5deg) scale(1.1);
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3);
-    font-weight: 700;
+    font-weight: 800;
   }
 
   .nav-link.active::after {
