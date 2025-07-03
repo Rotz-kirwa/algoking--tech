@@ -1,20 +1,19 @@
-import { useState } from 'react';
-import Header from './components/Header';
-import Home from './components/Home';
-import About from './components/About';
-import Services from './components/Services';
-import Portfolio from './components/Portfolio';
-import Pricing from './components/Pricing';
-import Testimonials from './components/Testimonials';
-import Blog from './components/Blog';
-import Contact from './components/Contact';
-import './App.css';
+import React from 'react';
+import Header from './components/Header.jsx';
+import Home from './components/Home.jsx';
+import About from './components/About.jsx';
+import Services from './components/Services.jsx';
+import Portfolio from './components/Portfolio.jsx';
+import Pricing from './components/Pricing.jsx';
+import Testimonials from './components/Testimonials.jsx';
+import Blog from './components/Blog.jsx';
+import Contact from './components/Contact.jsx';
 
-function App() {
-  const [activeSection, setActiveSection] = useState('home');
+const App = () => {
+  const [activeSection, setActiveSection] = React.useState('home');
 
   return (
-    <div className="App">
+    <>
       <Header activeSection={activeSection} setActiveSection={setActiveSection} />
       <main>
         <Home />
@@ -26,8 +25,8 @@ function App() {
         <Blog />
         <Contact />
       </main>
-    </div>
+    </>
   );
-}
+};
 
 export default App;
